@@ -4,18 +4,23 @@
   text-align: center;
 }
 
-header li {
+header span {
   display: inline-block;
-  padding-bottom: 5%;
+  font-family: 'Nixie One', cursive;
+  font-size: 32px;
+  padding-bottom: 8%;
+  padding-right: 4%;
 }
 
 nav p {
+  color: #f7c59f;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 36px;
   padding-bottom: 4%;
 }
 
 li, span {
-    display: inline-block;
-    padding: 2%;
+    padding: 20px;
 }
 
 article {
@@ -29,7 +34,7 @@ footer {
 
 footer li {
   display: inline-block;
-  font-family: 'nixie_oneregular', cursive;
+  font-family: 'Nixie One', cursive;
   font-size: 20px;
   padding: 20px;
 }
