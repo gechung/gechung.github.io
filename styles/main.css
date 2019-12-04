@@ -5,7 +5,7 @@
 
 section {
   float: left;
-  font-family: "Nixie One", cursive;
+  font-family: 'nixie_oneregular';
   padding: 2%;
   width: 100%;
 }
@@ -18,13 +18,13 @@ section {
 
 .square {
   display: inline-block;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'open_sansregular', sans-serif;
   height: 400px;
   width: 400px;
 }
 
 h2 {
-  font-family: "Alfa Slab One", cursive;
+  font-family: 'alfa_slab_oneregular', cursive;
   font-size: 25px;
   padding-bottom: 2%;
 }
@@ -51,7 +51,7 @@ img:hover {
 
 footer li {
   display: inline-block;
-  font-family: "Nixie One", cursive;
+  font-family: 'nixie_oneregular', cursive;
   font-size: 20px;
   padding: 15px;
 }
