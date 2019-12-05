@@ -7,7 +7,7 @@
 header li {
   display: inline-block;
   font-family: 'Nixie One', cursive;
-  font-size: 32px;
+  font-size: 36px;
   min-width: 30%;
   padding-bottom: 5%;
 }
@@ -15,32 +15,36 @@ header li {
 nav p {
   color: #f7c59f;
   font-family: 'Alfa Slab One', cursive;
-  font-size: 36px;
+  font-size: 42px;
   padding-bottom: 4%;
 }
 
 .container {
-  width: 90%;
   margin: 0 auto;
   text-align: center;
+  width: 90%;
 }
 
 .description {
-  width: 400px;
-  height: 100px;
   display: inline-block;
-  margin: 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  height: 100px;
+  line-height: 1.4;
+  margin: 2px;
+  text-align: left;
+  vertical-align: top;
+  width: 500px;
 }
 
 .paragraph {
-  width: 400px;
-  height: 100px;
   display: inline-block;
-  margin: 2px;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
+  height: 100px;
+  margin: 2px;
+  text-align: left;
+  width: 500px;
 }
 
 h4 {
@@ -63,7 +67,10 @@ p {
   padding-bottom: 4%;
 }
 
-article {
+article, article p {
+  font-family: 'Nixie One', cursive;
+  font-style: italic;
+  padding-bottom: 2%;
   text-align: right;
 }
 
@@ -75,13 +82,13 @@ footer {
 footer li {
   display:inline-block;
   font-family: 'Nixie One', cursive;
-  font-size: 20px;
+  font-size: 18px;
+  min-width: 25%;
   padding: 15px;
 }
 
 footer p {
   font-family: 'Alfa Slab One', cursive;
-  font-size: 24px;
-  float: center;
+  font-size: 22px;
   padding-top: 4%
 }
