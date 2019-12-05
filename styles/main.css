@@ -6,15 +6,10 @@
 section {
   float: left;
   font-family: 'Nixie One', cursive;
-  padding: 2%;
-  width: 100%;
-}
-
-.grace {
-  float: left;
   font-size: 48px;
   line-height: 1.2;
-  text-align: left;
+  padding-bottom: 2%;
+  width: 100%;
 }
 
 .square {
@@ -57,7 +52,7 @@ img:hover {
 footer li {
   display: inline-block;
   font-family: 'Nixie One', cursive;
-  font-size: 20px;
+  font-size: 18px;
   padding: 15px;
 }
 
