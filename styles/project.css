@@ -18,9 +18,13 @@ img {
 }
 
 .container {
-  margin: 5%;
+  margin: 2%;
   text-align: center;
-  width: 90%;
+  width: auto;
+}
+
+span {
+  font-family: 'Nixie One', cursive;
 }
 
 .description {
@@ -31,7 +35,6 @@ img {
   line-height: 1.4;
   margin: 2px;
   text-align: left;
-  vertical-align: top;
   width: 500px;
 }
 
@@ -43,6 +46,11 @@ img {
   margin: 2px;
   text-align: left;
   width: 500px;
+}
+
+p::before {
+  content: "\A";
+  white-space: pre;
 }
 
 h4 {
@@ -68,11 +76,21 @@ article, article p {
   color: #f7c59f;
   font-family: 'Alfa Slab One', cursive;
   padding-bottom: 1%;
+  padding-right: 4%;
   text-align: right;
 }
 
 article img {
+  filter: alpha(opacity=50);
+  opacity: 0.5;
   padding-bottom: 5%;
+  padding-right: 5%;
+}
+
+article img:hover {
+  cursor: pointer;
+  opacity: 1.0;
+  filter: alpha(opacity=100);
 }
 
 footer {
