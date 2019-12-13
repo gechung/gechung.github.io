@@ -1,9 +1,13 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
 header li {
   display: inline-block;
   font-family: 'Nixie One', cursive;
   font-size: 36px;
   min-width: 30%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
 }
 
 nav p {
@@ -34,7 +38,9 @@ span {
   height: 100px;
   line-height: 1.4;
   margin: 2px;
-  text-align: left;
+  padding-top: 1.5%;
+  text-align: center;
+  vertical-align: top;
   width: 500px;
 }
 
@@ -51,6 +57,10 @@ span {
 p::before {
   content: "\A";
   white-space: pre;
+}
+
+h3 {
+  padding-top: 5%;
 }
 
 h4 {
@@ -83,8 +93,9 @@ article, article p {
 article img {
   filter: alpha(opacity=50);
   opacity: 0.5;
-  padding-bottom: 5%;
-  padding-right: 5%;
+  padding-bottom: 3%;
+  padding-right: 12%;
+  padding-top: 2%;
 }
 
 article img:hover {
@@ -101,7 +112,7 @@ footer {
 footer li {
   display:inline-block;
   font-family: 'Nixie One', cursive;
-  font-size: 18px;
+  font-size: 20px;
   min-width: 25%;
   padding: 15px;
 }
@@ -110,4 +121,24 @@ footer p {
   font-family: 'Alfa Slab One', cursive;
   font-size: 22px;
   padding-top: 4%
+}
+
+/* unvisited link */
+a:link {
+  color: #2F2D2E;
+}
+
+/* visited link */
+a:visited {
+  color: #f7c59f;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f5b700;
+}
+
+/* selected link */
+a:active {
+  color: #eff9f0;
 }
