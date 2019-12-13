@@ -18,7 +18,7 @@ img {
 }
 
 .container {
-  margin: 0 auto;
+  margin: 5%;
   text-align: center;
   width: 90%;
 }
@@ -47,16 +47,15 @@ img {
 
 h4 {
   color: #f7c59f;
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 20px;
   padding-top: 2%;
 }
 
-h5 {
-  color: #2E3532;
-  padding-bottom: 2%;
-}
-
-h4, h5 {
+h6 {
+  color: #2e3532;
   font-family: 'Alfa Slab One', cursive;
+  font-size: 24px;
 }
 
 p {
@@ -66,10 +65,14 @@ p {
 }
 
 article, article p {
-  font-family: 'Nixie One', cursive;
-  font-style: italic;
-  padding-bottom: 2%;
+  color: #f7c59f;
+  font-family: 'Alfa Slab One', cursive;
+  padding-bottom: 1%;
   text-align: right;
+}
+
+article img {
+  padding-bottom: 5%;
 }
 
 footer {
