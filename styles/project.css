@@ -17,8 +17,8 @@ nav p {
   padding-bottom: 4%;
 }
 
-img {
-  width: auto;
+section img {
+  width: 50%;
 }
 
 .container {
@@ -94,8 +94,9 @@ article img {
   filter: alpha(opacity=50);
   opacity: 0.5;
   padding-bottom: 3%;
-  padding-right: 12%;
-  padding-top: 2%;
+  padding-right: 3%;
+  padding-top: 5%;
+  width: 35%;
 }
 
 article img:hover {
