@@ -1,4 +1,4 @@
-*, *:before, *:after {
+* {
   box-sizing: border-box;
 }
 
@@ -104,4 +104,27 @@ a:hover {
 /* selected link */
 a:active {
   color: #eff9f0;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .square {
+    width: 80%;
+    padding: 0;
+  }
+
+  footer {
+    padding-left: 30%;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .square {
+    width: 100%;
+  }
+
+  footer {
+    padding-left: 30%;
+  }
 }
