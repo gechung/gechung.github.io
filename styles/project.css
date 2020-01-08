@@ -1,4 +1,4 @@
-*, *:before, *:after {
+* {
   box-sizing: border-box;
 }
 
@@ -6,7 +6,7 @@ header li {
   display: inline-block;
   font-family: 'Nixie One', cursive;
   font-size: 36px;
-  min-width: 30%;
+  min-width: 33%;
   padding-bottom: 2%;
 }
 
@@ -142,4 +142,24 @@ a:hover {
 /* selected link */
 a:active {
   color: #eff9f0;
+}
+
+@media screen and (max-width:800px) {
+  .container {
+    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
+  }
+
+  header, nav, footer {
+    padding-left: 35%;
+  }
+}
+
+@media screen and (max-width:500px) {
+  .container {
+    width: 100%;
+  }
+
+  header, nav, footer {
+    padding-left: 35%;
+  }
 }
