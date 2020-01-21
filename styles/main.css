@@ -58,11 +58,11 @@ p {
 img {
   display: inline-block;
   filter: alpha(opacity=50);
-  height: 85%;
   margin: 0 auto;
   opacity: 0.5;
   padding-top: 5%;
   padding-bottom: 10%;
+  width: 100%;
 }
 
 img:hover {
@@ -76,7 +76,7 @@ footer li {
   display: inline-block;
   font-family: 'Nixie One', cursive;
   font-size: 18px;
-  padding-right: 200px;
+  padding-right: 0 100px;
   text-align: center;
 }
 
@@ -109,12 +109,8 @@ a:active {
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .square {
-    width: 80%;
+    width: 100%;
     padding: 0;
-  }
-
-  footer {
-    padding-left: 30%;
   }
 }
 
@@ -122,9 +118,5 @@ a:active {
   /* For mobile phones: */
   .square {
     width: 100%;
-  }
-
-  footer {
-    padding-left: 30%;
   }
 }
