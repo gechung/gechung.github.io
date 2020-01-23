@@ -1,0 +1,90 @@
+.container {
+  margin: 5%;
+}
+
+header {
+  color: #2f2d23;
+  font-family: 'Nixie One', cursive;
+  font-size: 36px;
+  line-height: 1.2;
+  padding-bottom: 2%;
+  text-align: left;
+}
+
+.square {
+  color: #2f2d2e;
+  display: inline-block;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 24px;
+  line-height: 1.2;
+  padding-top: 2%;
+  width: 45%;
+}
+
+.square img {
+  width: 100%;
+}
+
+.square p {
+  float: right;
+  padding-bottom: 35%;
+  padding-top: 2%;
+  width: 100%;
+}
+
+aside p {
+  color: #f5b700;
+  font-family: 'Alfa Slab One', cursive;
+}
+
+footer li {
+  color: #2f2d2e;
+  display: inline-block;
+  font-family: 'Nixie One', cursive;
+  font-size: 18px;
+  padding-right: 0 100px;
+  text-align: center;
+}
+
+footer {
+  color: #2f2d2e;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* unvisited link */
+a:link {
+  color: #2F2D2E;
+}
+
+/* visited link */
+a:visited {
+  color: #f7c59f;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f5b700;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* selected link */
+a:active {
+  color: #eff9f0;
+}
+
+@media only screen and (max-width:800px) {
+  /* For tablets: */
+  .square {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .square {
+    width: 100%;
+  }
+}
