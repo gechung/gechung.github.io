@@ -23,7 +23,7 @@ section img {
 }
 
 .container {
-  margin: 2%;
+  padding: 2%;
   text-align: center;
   width: auto;
 }
@@ -32,13 +32,16 @@ span {
   font-family: 'Nixie One', cursive;
 }
 
+img {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .description {
   display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-size: 1rem;
-  height: 100px;
   line-height: 1.4;
-  margin: 2px;
   padding-top: 1.5%;
   text-align: center;
   vertical-align: top;
@@ -52,11 +55,11 @@ span {
   height: 100px;
   margin: 2px;
   text-align: left;
-  width: 500px;
+  max-width: 500px;
 }
 
 h3 {
-  padding-top: 5%;
+  padding-top: 2%;
   text-align: right;
   width: 75%;
 }
@@ -89,8 +92,9 @@ footer li {
   display:inline-block;
   font-family: 'Nixie One', cursive;
   font-size: 20px;
+  margin-top: 25px;
   min-width: 25%;
-  padding: 15px;
+  padding: 10px;
 }
 
 footer p {
@@ -119,12 +123,48 @@ a:active {
   color: #eff9f0;
 }
 
-@media screen and (max-width:800px) {
-  .container {
-    width:100%; /* The width is 100%, when the viewport is 800px or smaller */
-  }
-
-@media screen and (max-width:500px) {
-  .container {
+@media screen and (max-width:1024px) {
+  .box {
     width: 100%;
   }
+
+header li {
+  width: 100%;
+}
+
+h3 {
+  font-family: 'Nixie One', cursive;
+  text-align: left;
+  width: 100%;
+}
+
+.description {
+  margin: 20px 2px 20px 2px;
+}
+
+@media screen and (max-width:500px) {
+  .box {
+    width: 100%;
+  }
+
+header li {
+  width: 100%;
+}
+
+h3 {
+  text-align: left;
+  margin-left: -22%;
+  width: 150%;
+}
+
+nav p {
+  margin-top: 5px;
+}
+
+img {
+  margin-bottom: 10px;
+}
+
+.description {
+  margin: 20px 2px 20px 2px;
+}
