@@ -3,16 +3,16 @@
 }
 
 .container {
-  padding: 5%;
+  padding: 10% 2% 10% 2%;
 }
 
 header li {
   display: inline-block;
   font-family: 'Nixie One', cursive;
-  font-size: 36px;
+  font-size: 42px;
   line-height: 1.5;
   min-width: 30%;
-  padding-bottom: 5%;
+  padding-bottom: 2%;
   text-align: left;
 }
 
@@ -74,7 +74,7 @@ footer li {
 footer {
   color: #2f2d2e;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 50px;
 }
 
 /* unvisited link */
